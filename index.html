@@ -18,7 +18,7 @@
 
 <body>
     <div id="vue-app">
-        <ul>
+        <ul v-if="listaEmail.length === 10">
             <li v-for="email in listaEmail">{{email}}</li>
         </ul>
     </div>
